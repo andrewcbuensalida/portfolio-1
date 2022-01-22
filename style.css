@@ -4,7 +4,7 @@
 }
 html {
 	scroll-behavior: smooth;
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 body {
 	margin: 0;
@@ -25,7 +25,7 @@ main {
 	max-width: 600px;
 	margin: 0 auto;
 }
-section {
+article {
 	padding: 2em;
 }
 img,
@@ -36,4 +36,16 @@ iframe {
 }
 a {
 	text-decoration: none;
+}
+a:link{
+    color: rgb(56, 216, 41);
+}
+a:visited{
+    color:rgb(112, 151, 34)
+}
+a:hover{
+    color: rgb(174, 204, 115);
+}
+li{
+    font-size: 1.1rem;
 }
