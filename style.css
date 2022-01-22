@@ -3,8 +3,8 @@
 		"Lucida Sans", Arial, sans-serif;
 }
 html {
+    /* smooth scrolling when clicking the contact me */
 	scroll-behavior: smooth;
-	box-sizing: border-box;
 }
 body {
 	margin: 0;
@@ -12,6 +12,7 @@ body {
 }
 header,
 footer {
+    /* rgba with opacity of .8 so background color will show a little on the font */
 	color: rgba(255, 255, 255, 0.8);
 	text-align: center;
 	background-color: rgb(3, 27, 78);
@@ -31,6 +32,7 @@ article {
 img,
 iframe {
 	margin-bottom: 2em;
+    /* so image is responsive and won't go bigger than main */
 	max-width: 100%;
 	border-radius: 10px;
 }
