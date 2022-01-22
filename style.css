@@ -1,0 +1,39 @@
+* {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background-color: rgb(225, 245, 255);
+}
+header,
+footer {
+	color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	background-color: rgb(3, 27, 78);
+	padding: 1rem;
+}
+h1 {
+	font-family: "Courier New", Courier, monospace;
+	margin-bottom: 0;
+}
+main {
+	max-width: 600px;
+	margin: 0 auto;
+}
+section {
+	padding: 2em;
+}
+img,
+iframe {
+	margin-bottom: 2em;
+	max-width: 100%;
+	border-radius: 10px;
+}
+a {
+	text-decoration: none;
+}
