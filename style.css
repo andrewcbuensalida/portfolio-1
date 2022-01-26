@@ -1,3 +1,4 @@
+/* to change the font family */
 * {
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 		"Lucida Sans", Arial, sans-serif;
@@ -6,6 +7,7 @@ html {
     /* smooth scrolling when clicking the contact me */
 	scroll-behavior: smooth;
 }
+/* so body and everything will stick to the side of the screen */
 body {
 	margin: 0;
 	background-color: rgb(225, 245, 255);
@@ -14,6 +16,7 @@ header,
 footer {
     /* rgba with opacity of .8 so background color will show a little on the font */
 	color: rgba(255, 255, 255, 0.8);
+	/* to center my name in the header and footer */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -25,8 +28,10 @@ h1 {
 	font-family: "Courier New", Courier, monospace;
 	margin-bottom: 0;
 }
+
 main {
 	max-width: 600px;
+	/* to center main in the body */
 	margin: 0 auto;
 }
 article {
@@ -42,15 +47,20 @@ iframe {
 a {
 	text-decoration: none;
 }
+/* to style the contact me links when hovering,visited, and unvisited */
 a:link{
-    color: rgb(56, 216, 41);
+    color: rgb(21, 85, 15);
 }
 a:visited{
-    color:rgb(112, 151, 34)
+    color:rgb(72, 97, 22)
 }
 a:hover{
     color: rgb(174, 204, 115);
 }
+/* making font a little bigger */
 li{
     font-size: 1.1rem;
+}
+p{
+	font-size: 1.1rem;
 }
